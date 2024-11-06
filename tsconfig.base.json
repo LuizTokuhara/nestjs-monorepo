@@ -8,6 +8,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
+    "composite": true,
     "target": "es2015",
     "module": "esnext",
     "lib": ["es2020", "dom"],
@@ -15,7 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@monorepo/backend/users": ["libs/backend/module/users/src/index.ts"]
+      "@monorepo/backend/user": ["libs/backend/modules/user/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

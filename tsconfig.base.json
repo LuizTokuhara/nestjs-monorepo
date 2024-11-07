@@ -3,12 +3,11 @@
   "compilerOptions": {
     "rootDir": ".",
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "composite": true,
     "target": "es2015",
     "module": "esnext",
     "lib": ["es2020", "dom"],
